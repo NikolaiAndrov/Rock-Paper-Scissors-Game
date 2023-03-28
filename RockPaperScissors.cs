@@ -30,7 +30,7 @@
         }
         else if (playerMove == computerMove)
         {
-            winner = "This game was a draw";
+            winner = "This game was a draw.";
         }
 
         return winner;
