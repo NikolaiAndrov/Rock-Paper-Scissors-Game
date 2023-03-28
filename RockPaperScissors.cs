@@ -3,6 +3,7 @@
     const string Rock = "Rock";
     const string Paper = "Paper";
     const string Scissors = "Scissors";
+     
     public static void Main()
     {
         Console.WriteLine("Choose [r]ock, [p]aper or [s]cissors");
