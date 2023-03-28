@@ -37,6 +37,7 @@
 
         return winner;
     }
+     
     static string GetComputerMove()
     {
         Random random = new Random();
@@ -59,6 +60,7 @@
         Console.WriteLine($"The opponent chose {computerMove}.");
         return computerMove;
     }
+     
     static string GetPlayerMove()
     {
         string playerMove = Console.ReadLine();
