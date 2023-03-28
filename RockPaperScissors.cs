@@ -6,8 +6,6 @@
      
     public static void Main()
     {
-        Console.WriteLine("Choose [r]ock, [p]aper or [s]cissors");
-
         string playerMove = GetPlayerMove();
         string computerMove = GetComputerMove();
         string winner = GetTheWinner(playerMove, computerMove);
@@ -63,6 +61,7 @@
      
     static string GetPlayerMove()
     {
+        Console.WriteLine("Choose [r]ock, [p]aper or [s]cissors");
         string playerMove = Console.ReadLine();
 
         if (playerMove == "r" || playerMove == "rock")
